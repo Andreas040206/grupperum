@@ -1,7 +1,7 @@
 {
   "name": "Grupperum",
   "short_name": "Grupperum",
-  "start_url": "/grupperum/",
+  "start_url": "/grupperum/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
