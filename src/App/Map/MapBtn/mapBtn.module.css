@@ -1,0 +1,27 @@
+.btnRed {
+  background-color: rgba(207, 0, 0, 0.6);
+}
+
+.btnRed:hover {
+  background-color: rgba(255, 0, 0, 0.85);
+}
+
+.btnGreen {
+  background-color: rgb(0, 160, 21, 0.6);
+}
+
+.btnGreen:hover {
+  background-color: rgba(0, 202, 27, 0.85);
+}
+
+.selectedGreen {
+  transform: rotate(49deg) skew(-27.5deg, 2.5deg)
+    translate(calc(-0.005 * (85vw - 400px)), calc(-0.0035 * (85vw - 400px)));
+  background-color: rgba(0, 202, 27, 0.85);
+}
+
+.selectedRed {
+  transform: rotate(49deg) skew(-27.5deg, 2.5deg)
+    translate(calc(-0.005 * (85vw - 400px)), calc(-0.0035 * (85vw - 400px)));
+  background-color: rgba(255, 0, 0, 0.85);
+}

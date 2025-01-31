@@ -1,0 +1,58 @@
+.con {
+  flex-shrink: 0;
+  height: 80px;
+  width: calc(100% - 15px);
+  border-radius: 20px;
+  background: rgb(230, 230, 230);
+  display: flex;
+  padding: 0px 0px 0px 15px;
+  position: relative;
+  transition: 0.7s;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.selected {
+  height: 400px;
+}
+
+.text {
+  font-size: min(30px, 1.7vw);
+  font-weight: 900;
+}
+
+.ledigOrNotText {
+  padding: 4px 4px 0px 4px;
+  text-align: center;
+  height: 24px;
+  font-size: min(16px, 1vw);
+  color: white;
+}
+
+.ledigText {
+  background-color: rgb(0, 170, 0);
+}
+
+.notLedigText {
+  background-color: rgb(189, 0, 0);
+}
+
+.dropDownBtn {
+  background: none;
+  border: none;
+  font-size: 90px;
+  position: absolute;
+  top: -35px;
+  right: 5px;
+}
+
+.flipDropDown {
+  transform: rotate(180deg);
+  top: 5px;
+}

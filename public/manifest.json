@@ -1,0 +1,20 @@
+{
+  "name": "Grupperum",
+  "short_name": "Grupperum",
+  "start_url": "/grupperum/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "LOGO192X192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "AarhusUndergroundLOGO512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
